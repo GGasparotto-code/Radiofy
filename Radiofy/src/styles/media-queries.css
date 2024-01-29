@@ -1,0 +1,9 @@
+/* Um exemplo de uma consulta de mídia que aplica estilos específicos quando 
+/* a largura da tela é menor ou igual a 1015px */
+@media screen and (max-width: 1015px) {
+    /* A classe .offer__list-item terá duas colunas de largura igual quando a condição acima for atendida */
+    .offer__list-item {
+        /* Utilizando grid-template-columns para definir a disposição das colunas */
+        grid-template-columns: 1fr 1fr;
+    }
+}

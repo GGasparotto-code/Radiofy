@@ -1,0 +1,225 @@
+/* Define as cores e a fonte do corpo da página */
+body {
+    background-color: black;
+    font-family: var(--font-dm-sans);
+}
+
+/* Estiliza o logo na barra lateral */
+.sidebar_navigation .logo {
+    background: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+/* Define a largura da imagem do logo */
+.logo img {
+    width: 200px;
+}
+
+/* Estiliza a barra lateral */
+.sidebar {
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+/* Estiliza a navegação da barra lateral */
+.sidebar_navigation {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+/* Estiliza a lista de navegação na barra lateral */
+.sidebar nav ul {
+    margin-top: 0px;
+    padding: 0 20px 10px 20px;
+}
+
+/* Estiliza os itens da lista na barra lateral */
+.sidebar ul li {
+    padding: 10px 0;
+}
+
+/* Estiliza os links da lista de navegação na barra lateral */
+.sidebar nav ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+/* Estiliza a biblioteca */
+.library {
+    position: relative;
+    z-index: 2;
+    margin-top: 10px;
+    padding: 12px 8px;
+    background-color: #121212;
+    color: #b3b3b3;
+    border-radius: 8px;
+}
+
+/* Estiliza o botão da biblioteca */
+.library .library_button {
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+}
+
+/* Estiliza o texto dentro do botão da biblioteca */
+.library .library_button span {
+    padding: 0 5px;
+}
+
+/* Posiciona o último span dentro do botão da biblioteca à direita */
+.library .library_button span:last-child {
+    position: absolute;
+    right: 20px;
+}
+
+/* Estiliza a seção da playlist */
+.section-playlist {
+    background-color: #242424;
+    border-radius: 10px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 20px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0;
+}
+
+/* Estiliza o conteúdo da seção da playlist */
+.section-playlist .section-playlist_content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estiliza o título da seção da playlist */
+.section-playlist_content .text-title {
+    padding-bottom: 14px;
+    color: #fff;
+}
+
+/* Estiliza o subtítulo da seção da playlist */
+.section-playlist_content .text-subtitle {
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+/* Estiliza o botão da seção da playlist */
+.section-playlist_content .section-playlist_button {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    margin-top: 12px;
+    border: 0px;
+    width: 113px;
+}
+
+/* Estiliza os cookies na barra lateral */
+.sidebar .cookies {
+    margin: 10px 20px;
+}
+
+/* Estiliza o link dos cookies na barra lateral */
+.sidebar .cookies a {
+    color: #b3b3b3;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/* Estilo aplicado quando o mouse passa sobre um link dos cookies */
+.sidebar .cookies a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para o botão de idiomas */
+.languages .languages_button {
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid #878787;
+    color: #fff;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    justify-content: start;
+    padding: 8px;
+    width: 170px;
+    margin-bottom: 10px;
+}
+
+/* Aplica um padding à direita para o primeiro span dentro do botão de idioma */
+.languages .languages_button span:first-child {
+    padding-right: 5px;
+}
+
+/* Estilo para aviso premium */
+.disclaimer-premium {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(to right, #004AAD, #5DE0E6);
+    border-radius: 10px;
+    padding: 18px 40px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Evita que o texto dentro do aviso premium seja reduzido */
+.disclaimer-premium .text {
+    flex-shrink: 0;
+}
+
+/* Estilização para o título do aviso premium */
+.disclaimer-premium .disclaimer-premium_title {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+/* Estilização para o subtítulo do aviso premium */
+.disclaimer-premium .disclaimer-premium_subtitle {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Estilização para o botão dentro do aviso premium */
+.disclaimer-premium button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
+}

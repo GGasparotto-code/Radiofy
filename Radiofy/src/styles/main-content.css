@@ -1,0 +1,302 @@
+/* Header */
+.main-container {
+    /* Estilo para o container principal */
+    position: absolute;
+    top: 0;
+    left: 100px;
+    min-width: 77vw;
+    height: 100vh;
+    margin-left: 210px;
+    margin-right: 0px;
+}
+
+.header_navigation {
+    /* Estilo para a navegação do cabeçalho */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 12px;
+    border-radius: 8px;
+    background-color: #121212;
+    flex-direction: column;
+}
+
+.header_navigation .navigation {
+    /* Estilo para a barra de navegação dentro do cabeçalho */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_navigation .navigation .arrow-left {
+    /* Estilo para a seta à esquerda na barra de navegação */
+    margin-right: 1.25rem;
+}
+
+.arrow-left,
+.arrow-right {
+    /* Estilo para as setas à esquerda e à direita */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: var(--bg-icon);
+    background-color: var(--bg-arrow-color);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.header_login {
+    /* Estilo para o login do cabeçalho */
+    display: flex;
+    align-items: center;
+}
+
+.header_search {
+    /* Estilo para a barra de pesquisa do cabeçalho */
+    display: flex;
+    align-items: center;
+    width: 364px;
+    height: 48px;
+    margin-left: 8px;
+    background-color: #242424;
+    border-radius: 500px;
+    border: 1px solid transparent;
+}
+
+.header_search img {
+    /* Estilo para a imagem dentro da barra de pesquisa */
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+.header_search input {
+    /* Estilo para o campo de entrada da barra de pesquisa */
+    background: transparent;
+    border: none;
+    padding: 0 100px 0 12px;
+    color: #fff;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none;
+}
+
+.header_login .subscribe {
+    /* Estilo para o botão de inscrição do cabeçalho */
+    color: #a7a7a7;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    margin-right: 32px;
+}
+
+.header_login .login {
+    /* Estilo para o botão de login do cabeçalho */
+    width: 100px;
+    height: 48px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 40px;
+}
+
+/* Hover */
+.header_search:hover {
+    /* Estilo para o hover da barra de pesquisa */
+    border: 1px solid #fff;
+}
+
+.header_login .subscribe:hover {
+    /* Estilo para o hover do botão de inscrição */
+    transform: scale(1.04);
+    color: var(--text-base-light);
+}
+
+.header_login .login:hover {
+    /* Estilo para o hover do botão de login */
+    transform: scale(1.04);
+}
+/* Fim Hover */
+/* Fim Header */
+
+/* Playlist */
+.playlist-container {
+    /* Estilo para o container da playlist */
+    height: 63vh;
+    padding-top: 16px;
+    margin: 12px;
+    border-radius: 10px;
+    background-color: #121212;
+}
+
+.playlist {
+    /* Estilo para a lista de reprodução */
+    margin: 24px;
+}
+
+.playlist #greeting {
+    /* Estilo para a mensagem de saudação na lista de reprodução */
+    color: var(--text-base-light);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.playlist .session {
+    /* Estilo para a sessão na lista de reprodução */
+    color: var(--text-base-light);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* Scroll */
+.offer__scroll-container {
+    /* Estilo para o container de rolagem */
+    max-height: 43vh;
+    margin: 24px;
+    overflow-y: auto;
+}
+
+/* Estilos para a barra de rolagem */
+.offer__scroll-container::-webkit-scrollbar {
+    width: 1px;
+}
+
+.offer__scroll-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+/* Fim Scroll */
+
+/* Cards */
+.offer__list-item {
+    /* Estilo para os itens da lista de opções */
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 16px;
+    gap: 16px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+
+}
+
+/* Posição */
+.cards {
+    /* Estilo para os cards */
+    position: relative;
+    width: 220px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #242424;
+}
+
+.cards span {
+    /* Estilo para os elementos span dentro dos cards */
+    padding: 10px;
+    position: absolute;
+    color: var(--text-base-light);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.offer__list-item img {
+    /* Estilo para as imagens dentro dos itens da lista de ofertas */
+    position: absolute;
+    right: 50px;
+    bottom: 10px;
+    height: auto;
+    width: 60%;
+    border-radius: 8px;
+}
+
+/* Card Artista */
+.artist {
+    /* Variáveis para o card do artista */
+    --column-count: 5;
+    --grid-gap: 24px;
+    --min-container-width: 372px;
+}
+
+.hidden {
+    /* Estilo para ocultar elementos */
+    display: none;
+}
+
+.grid-container {
+    /* Estilo para o container da grade */
+    grid-gap: var(--grid-gap);
+    display: grid;
+    grid-template-columns: repeat(var(--column-count), minmax(0, 1fr));
+    min-width: var(--min-container-width);
+}
+
+.artist-card {
+    /* Estilo para o card do artista */
+    background: #181818;
+    border-radius: 8px;
+    -ms-flex: 1;
+    flex: 1;
+    isolation: isolate;
+    padding: 16px;
+    position: relative;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.artist-card:hover {
+    /* Estilo para o hover do card do artista */
+    background-color: #252525;
+}
+
+.card-img {
+    /* Estilo para a imagem do card */
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.artist-img {
+    /* Estilo para a imagem do artista */
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.card-text {
+    /* Estilo para o texto do card */
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-height: 62px;
+}
+
+.card-text a {
+    /* Estilo para os links dentro do texto do card */
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.artist-name {
+    /* Estilo para o nome do artista */
+    box-sizing: border-box;
+    margin-block: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    padding-block-end: 8px;
+}
+/* Fim Card Artista */
