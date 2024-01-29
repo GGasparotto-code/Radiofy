@@ -6,8 +6,11 @@ Exemplo de uma Landing Page de música focada em front-end.
 
 ## Tecnologias Utilizadas
 - HTML
-- Css
+- CSS
 - JavaScript
 
 ## Como Usar
-Para usar o Radiofy, clone o repositório e abra o arquivo `index.html` do projeto em seu navegador.
+Para usar o Radiofy, clone o repositório em seu ambiente local, você pode fazer isso executando o seguinte comando no terminal:
+git clone https://github.com/GGasparotto-code/Radiofy.git
+
+Depois de clonar o repositório, basta abrir o arquivo `index.html` do projeto em seu navegador.
