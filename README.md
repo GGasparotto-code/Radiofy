@@ -1,7 +1,7 @@
 # Radiofy
 Projeto inspirado na Landing page do Spotify.
 
-##Sobre o Projeto
+## Sobre o Projeto
 Exemplo de uma Landing Page de música focada em front-end.
 
 ## Tecnologias Utilizadas
