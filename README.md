@@ -1,4 +1,4 @@
-# Radiofy
+# 📻 Radiofy
 Projeto inspirado na Landing page do Spotify.
 
 ## Sobre o Projeto
